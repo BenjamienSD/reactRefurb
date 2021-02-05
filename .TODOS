@@ -1,0 +1,15 @@
+LOGIN: 
+- if user is not logged in: show login page, else show form
+
+NAVBAR:
+- conditional styling for 'formulier' & 'bestelgeschiedenis'
+
+TABLE:
+- fix IDs, for some reason when deleting form with id 2, form with id 1 gets id 2
+
+INPUTFORM:
+- turn into component: inputSection, inputItem
+- autofill date
+- check for capitalization in 'betaalwijze'
+- clearCurrent only works on textfields now, not checkboxes or date
+- redirect to success / failure page on form submit
