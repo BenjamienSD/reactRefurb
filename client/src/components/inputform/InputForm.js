@@ -211,7 +211,10 @@ export default function Form() {
               <div>
                 <small className='text-muted'>
                   Zie{' '}
-                  <a href='http://www.bestetarief.be/'>
+                  <a
+                    href='http://www.bestetarief.be/'
+                    target='_blank'
+                    rel='noopener noreferrer'>
                     {' '}
                     <strong>bestetarief.be</strong>{' '}
                   </a>{' '}
@@ -236,11 +239,17 @@ export default function Form() {
               <div className='mt-0 mb-2'>
                 <small className='text-muted'>
                   Zie{' '}
-                  <a href='http://www.hierisgratiswifi.be/hotspots/Gent'>
+                  {/* <a
+                    href='http://www.hierisgratiswifi.be/hotspots/Gent'
+                    target='_blank'
+                    rel='noopener noreferrer'>
                     <strong>Hotspots Gent</strong>
                   </a>{' '}
-                  of{' '}
-                  <a href='https://stad.gent/nl/bibliotheek/lenen-internet-faciliteiten-advies/internet-faciliteiten-advies/internet-wifi'>
+                  of{' '} */}
+                  <a
+                    href='https://stad.gent/nl/bibliotheek/lenen-internet-faciliteiten-advies/internet-faciliteiten-advies/internet-wifi'
+                    target='_blank'
+                    rel='noopener noreferrer'>
                     <strong>Wifi Gent</strong>
                   </a>{' '}
                   voor meer informatie.
@@ -343,8 +352,8 @@ export default function Form() {
                   <option value='Brugsesteenweg'>Brugse</option>
                   <option value='Inburgering Gent'>In Gent</option>
                   <option value='Pannestraat'>Pannestr.</option>
-                  <option value='Getouwstraat'>UCO</option>
-                  <option value='Vlaamsekaai'>VlaKa</option>
+                  <option value='UCO'>UCO</option>
+                  <option value='VlaKa'>VlaKa</option>
                 </select>
               </div>
             </div>
@@ -635,13 +644,19 @@ export default function Form() {
               />
               <small>
                 Zie{' '}
-                <a href='https://beego.be/'>
+                <a
+                  href='https://beego.be/'
+                  target='_blank'
+                  rel='noopener noreferrer'>
                   {' '}
                   <strong>BEEGO</strong>{' '}
                 </a>{' '}
                 voor meer informatie. <br />
                 Indien de klant de bon heeft aanvaard, noteer de code en{' '}
-                <a href='https://docs.google.com/forms/d/e/1FAIpQLSeawRzTWJLDDkM1gD6A9dtkmxeqfcMe0O4pprguPDY9S-X3gA/viewform'>
+                <a
+                  href='https://docs.google.com/forms/d/e/1FAIpQLSeawRzTWJLDDkM1gD6A9dtkmxeqfcMe0O4pprguPDY9S-X3gA/viewform'
+                  target='_blank'
+                  rel='noopener noreferrer'>
                   <strong>registreer</strong>
                 </a>{' '}
                 de bon.

@@ -3,10 +3,6 @@ const express = require('express');
 const cors = require('cors');
 const connectDB = require('./config/db');
 
-// Environment variables
-const dotenv = require('dotenv');
-dotenv.config();
-
 // IMPORT ROUTES
 const users = require('./routes/api/users');
 const forms = require('./routes/api/forms');
