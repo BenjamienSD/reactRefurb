@@ -295,7 +295,10 @@ export default function Form() {
               />
               <small className='text-muted'>
                 Zie{' '}
-                <a href='https://pgeneration.be/?s=ocmw&post_type=product'>
+                <a
+                  href='https://pgeneration.be/?s=ocmw&post_type=product'
+                  target='_blank'
+                  rel='noopener noreferrer'>
                   <strong>FTC - OCMW</strong>
                 </a>{' '}
                 voor productspecificaties.
