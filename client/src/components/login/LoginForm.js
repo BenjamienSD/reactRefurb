@@ -29,7 +29,6 @@ export default function LoginForm() {
       email,
       password,
     });
-    console.log(user);
   };
 
   return (
