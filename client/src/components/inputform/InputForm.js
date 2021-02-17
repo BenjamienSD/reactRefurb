@@ -423,7 +423,7 @@ export default function Form() {
                   <option value='Dienstenbedrijf Sociale Economie'>
                     Dienstenbedrijf Sociale Economie
                   </option>
-                  <option value='Leenactie Corona'>Leenactie Corona</option>
+                  <option value='Leenactie C.'>Leenactie Corona</option>
                   <option value='Gentenaar'>Gentenaar</option>
                 </select>
               </div>
