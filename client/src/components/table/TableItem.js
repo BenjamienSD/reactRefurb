@@ -47,7 +47,7 @@ export default function TableItem({ form }, props) {
   let isOcmw;
   if (user !== null) {
     isAdmin = user.admin;
-    if (user.email === 'refurb@ocmw.be') {
+    if (user.email === 'ocmw@refurb.be') {
       isOcmw = true;
     }
   }
