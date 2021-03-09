@@ -4,6 +4,8 @@ import InputForm from './components/inputform/InputForm';
 import Table from './components/table/Table.js';
 import Success from './components/layout/Success';
 import NoForms from './components/layout/NoForms';
+import Navigator from './components/layout/Navigator';
+import Registrator from './components/registrator/Registrator';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import FormState from './context/form/FormState';
 import AuthState from './context/auth/AuthState';
@@ -25,6 +27,8 @@ function App() {
             <Switch>
               <Route exact path='/' component={LoginPage} />
               <Route exact path='/login' component={LoginPage} />
+              <PrivateRoute exact path='/navigator' component={Navigator} />
+              <PrivateRoute exact path='/registrator' component={Registrator} />
               <PrivateRoute exact path='/table' component={Table} />
               <PrivateRoute exact path='/formulier' component={InputForm} />
               <PrivateRoute exact path='/success' component={Success} />

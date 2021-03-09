@@ -8,6 +8,9 @@ const users = require('./routes/api/users');
 const forms = require('./routes/api/forms');
 const tables = require('./routes/api/tables');
 
+// test registrations
+const registrations = require('./routes/api/registrations');
+
 // INIT APP
 // const app = express();
 const app = express().use('*', cors());
@@ -21,6 +24,7 @@ app.use(express.json({ extended: false }));
 app.use('/api/users', users);
 app.use('/api/forms', forms);
 app.use('/api/tables', tables);
+app.use('/api/registrations', registrations);
 
 // PORT CONFIG
 const PORT = process.env.PORT || 5030;
